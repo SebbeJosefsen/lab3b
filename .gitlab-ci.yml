@@ -1,0 +1,15 @@
+# DON'T CHANGE THE CONTENTS OF THIS FILE!
+stages:
+  - test
+
+run-simulator:
+  stage: test
+  image: olleronstad/d0013e_ci
+  tags:
+    - docker
+  cache:
+    paths: []
+  script:
+    # run the executable against the student's binary, accepted either in the
+    # repo root or in the lab3b/ folder (first path that exists is used)
+    - lab_3b_ci a_pipe_ext.out lab3b/a_pipe_ext.out

@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "ms-vscode.makefile-tools",
+        "kdarkhan.mips",
+        "spadin.remote-x11",
+        "spadin.remote-x11-ssh"
+    ]
+}
